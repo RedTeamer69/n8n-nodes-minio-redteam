@@ -15,7 +15,7 @@ export async function putObject(
 		const bucketName = (this.getNodeParameter('bucketName', i) as INodeParameterResourceLocator).value as string;
 		const fieldName = this.getNodeParameter('fieldName', i) as string;
 		// Optional Fields
-		const options = this.getNodeParameter('options', 0, {});
+		const options = this.getNodeParameter('options', i, {});
 		const objectName = options.objectName as string | undefined;
 		const metadata = options.metadata as string | undefined;
 
