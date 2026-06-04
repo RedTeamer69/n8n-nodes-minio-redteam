@@ -2,8 +2,8 @@
 import { INodeTypeDescription, NodeConnectionType } from 'n8n-workflow';
 
 export const nodeDescription: Partial<INodeTypeDescription> = {
-	displayName: 'MinIO',
-	name: 'minIo',
+	displayName: 'MinIO (RedTeam)',
+	name: 'minIoRedteam',
 	icon: 'file:minio.svg',
 	group: ['transform'],
 	version: 1,

@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.nodeDescription = void 0;
 exports.nodeDescription = {
-    displayName: 'MinIO',
-    name: 'minIo',
+    displayName: 'MinIO (RedTeam)',
+    name: 'minIoRedteam',
     icon: 'file:minio.svg',
     group: ['transform'],
     version: 1,
